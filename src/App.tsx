@@ -7,11 +7,11 @@ function App() {
     return (
         <>
             <button onClick={() => setShow(!show)}>
-    {show ? "Hide Element Below" : "Show Element Below"}
-    </button>
-    {show && <div>Toggle Challenge</div>}
-    </>
+                {show ? "Hide Element Below" : "Show Element Below"}
+            </button>
+            {show && <div>Toggle Challenge</div>}
+        </>
     );
-    }
+}
 
 export default App;
